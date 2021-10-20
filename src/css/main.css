@@ -1131,7 +1131,7 @@ h2, h3, h4, h5, h6 {
   padding: 1rem 0;
 }
 
-.favorite-details, .products-container {
+.favorite-details, .products-container, .service-details, .open-hours-details, .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-row-gap: 2rem;
@@ -1174,17 +1174,11 @@ h2, h3, h4, h5, h6 {
   color: #111;
 }
 
-@media (min-width: 768px) {
-  .gallery-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
-    background-color: #ffffff;
-    padding: 3rem;
-    margin: 0 auto;
-    width: 75vw;
-    margin-top: 4rem !important;
-  }
+.gallery-container {
+  margin: 0 auto;
+  width: 75vw;
+  margin-top: 4rem !important;
+  background-color: #ffffff;
 }
 .gallery-container img {
   margin-bottom: 12px;
@@ -1342,13 +1336,6 @@ h2, h3, h4, h5, h6 {
   padding: 4rem 0;
   font-size: 5rem;
 }
-@media (min-width: 768px) {
-  .services .service-container .service-details {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
-  }
-}
 .services .service-container .service-details .card {
   background: transparent;
   border: 0.1px solid #ccc;
@@ -1432,13 +1419,6 @@ h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   .open-hours .open-hours-container {
     width: 75vw;
-  }
-}
-@media (min-width: 768px) {
-  .open-hours .open-hours-container .open-hours-details {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
   }
 }
 .open-hours .open-hours-container .open-hours-details .location-container {
