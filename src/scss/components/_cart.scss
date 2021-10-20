@@ -1,0 +1,236 @@
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999999999;
+  visibility: hidden;
+
+  .cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 20vw;
+    min-width: 400px;
+    padding: 5rem 3rem;
+    overflow: scroll;
+    z-index: 9999999999;
+    background-color: #f2f2f2;
+    // transform: translateX(0%);
+
+    h2,h3 {
+      text-align: center;
+    }
+
+    .close-cart {
+      .fa {
+        cursor: pointer;
+        background: transparent;
+        font-size: 2.5rem;
+        color: #ff0000;
+      }
+    }
+
+    .cart-content {
+      .cart-item {
+        .cart-content-display {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-bottom: 1.5rem;
+
+          h4,h5,p {
+            margin: 0;
+            padding: 0;
+          }
+
+          h4 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #EE8434;
+          }
+
+          h5 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin: .3rem 0;
+          }
+
+          span {
+            color: #EE8434;
+            cursor: pointer;
+          }
+
+          .fa {
+            cursor: pointer;
+          }
+
+          .item-amount {
+            text-align: center;
+          }
+        }
+
+        img {
+          width: 70px;
+          height: 70px;
+          border-radius: .5rem;
+        }
+      }
+    }
+  }
+
+  .cart-footer {
+    text-align: center;
+    button {
+      display: block;
+      padding: 1rem 3rem;
+      border: none;
+      margin: 0 auto;
+      font-size: 2rem;
+    }
+  }
+}
+
+// show overlay
+.showOverlay {
+  visibility: visible;
+  // transition: all 0.3s ease;
+}
+
+.show_cart {
+  // transform: translateX(0);
+  // transition: all 0.3s ease;
+  animation-name: cartSlide;
+  animation-duration: 1s;
+}
+
+@keyframes cartSlide {
+  0%{
+    transform: translateX(1200px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+// These are styles for the full page cart
+.cart-section {
+  padding-top: 15rem;
+  margin: 0 auto;
+  width: 75vw;
+
+  h2 {
+    text-align: center;
+  }
+
+  button {
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 2rem;
+  }
+
+  .cartContent {
+    // margin-top: 3rem;
+    display: flex;  
+    gap: 2rem;
+    .cart-left {
+      flex-basis: 70%;
+      .cart-collection {
+        .cart-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #f2f2f2;
+          color: #111;
+          padding: 1rem;
+
+          .header-cart:nth-of-type(1) {
+            padding-left: 12rem;
+          }
+        }
+
+        .cartItems {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border: 1px solid #ccc;
+          padding: 2rem;
+          .cartProducts {
+            display: flex;
+            align-items: center;
+            gap: 1.3rem;
+            img {
+              width: 75px;
+              height: 75px;
+              border-radius: .3rem;
+            }
+
+            span {
+              color: #ff0000;
+              font-size: 2.5rem;
+              cursor: pointer;
+            }
+          }
+
+          .minAdBtns {
+            border: 1px solid #EE8434;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+            p {
+              font-size: 2.5rem;
+            }
+            button {
+              background-color: #ccc;
+              font-size: 1.5rem;
+              color: #EE8434;
+              border: none;
+              border-radius: 0rem;
+            }
+          }
+        }
+      }
+    }
+    .cart-right {
+      flex-basis: 30%;
+      border: 1px solid #ccc;
+      height: 24vh;
+      h2 {
+        background-color: #f2f2f2;
+        color: #111;
+        padding: 1.5rem;
+        font-size: 2.5rem;
+      }
+      .totalCart {
+        padding: 2rem;
+        .checkoutBtn {
+          margin-top: 1.5rem;
+          padding: 1rem;
+          width: 100%;
+          background-color: green;
+          border: none;
+          border-radius: .3rem;
+          font-size: 1.8rem;
+        }
+
+        div {
+          display: flex;
+          justify-content: space-between;
+          padding: 0rem 3rem;
+
+          h3:nth-of-type(2) {
+            color: #EE8434;
+          }
+        }
+      }
+    }
+  }
+}

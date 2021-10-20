@@ -1,0 +1,68 @@
+.banner {
+  a {
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #DD403A;
+    padding: 1rem 3rem;
+    color: #ffffff;
+    border-radius: 5rem;
+    margin-top: 2.3rem;
+    display: inline-block;
+  }
+
+  a:nth-of-type(2){
+    background: transparent;
+    // background-color: #02040F;
+    border: 1.5px solid #DD403A;
+    margin-left: 2rem;
+    color: #fff;
+  }
+}
+
+.slick-dots {
+  // position: absolute;
+  margin-bottom: 2rem;
+  // left: 50%;
+  // transform: translate(-30%);
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 0 10px;
+
+    button {
+      font-size: 0;
+      height: 10px;
+      width: 10px;
+      background-color: #ccc;
+      border-radius: 50%;
+      border: none;
+    }
+  }
+
+  .slick-active button {
+    background-color: #DD403A;
+  }
+}
+
+.select-membership {
+  div {
+    button {
+      padding: 1rem 3rem;
+      font-size: 2rem;
+      margin-top: 2rem;
+      border: none;
+    }
+  }
+}
+
+.load-more {
+  padding: 1.3rem 6rem;
+  margin-top: 2rem !important;
+  border: none;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}

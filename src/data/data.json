@@ -1,0 +1,135 @@
+{
+  "gallery": [
+    {
+      "id": 1,
+      "image": "https://images.pexels.com/photos/4552231/pexels-photo-4552231.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+    },
+    {
+      "id": 2,
+      "image": "https://images.pexels.com/photos/1410236/pexels-photo-1410236.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+    },
+    {
+      "id": 4,
+      "image": "https://images.pexels.com/photos/674554/pexels-photo-674554.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+    },
+    {
+      "id": 5,
+      "image": "https://images.pexels.com/photos/6605299/pexels-photo-6605299.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+    },
+    {
+      "id": 6,
+      "image": "https://images.pexels.com/photos/2313686/pexels-photo-2313686.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+    },
+    {
+      "id": 7,
+      "image": "https://images.pexels.com/photos/4099236/pexels-photo-4099236.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+    },
+    {
+      "id": 8,
+      "image": "https://images.pexels.com/photos/2313682/pexels-photo-2313682.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+    },
+    {
+      "id": 9,
+      "image": "https://images.pexels.com/photos/5972/healthy-people-woman-girl.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+    }
+  ],
+  "shop": [
+    {
+      "id": 1,
+      "link": "https://www.pexels.com/photo/dumplings-on-black-plate-beside-green-beans-and-fried-food-1860199/",
+      "image": "https://images.pexels.com/photos/1860199/pexels-photo-1860199.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Dumplings-on-black-plate",
+      "price": 9.99,
+      "sale": "Sale",
+      "text": "Our well made smoothie is always ready to fill your cup. Enjoy cold smoothie on your way in the gym or out. Mixed with Whey Proteins just for you."
+    },
+    {
+      "id": 2,
+      "link": "https://www.pexels.com/photo/mason-jar-with-shake-and-straw-775030/",
+      "image": "https://images.pexels.com/photos/775030/pexels-photo-775030.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Mason-jar-with-shake-and-straw",
+      "price": 3.99,
+      "text": "Our store has both non customized and customized t-shirts just for you. These t-shirts are made for training, but also feels comfortable walking around with."
+    },
+    {
+      "id": 3,
+      "link": "https://www.pexels.com/photo/cooked-food-1860208/",
+      "image": "https://images.pexels.com/photos/1860208/pexels-photo-1860208.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Fried Chicken Breast",
+      "price": 8.99,
+      "text": "We have new shows arrivals. Whether you are looking for shoes for yourself or as a gift, we got you covered in all sizes and colors of your choice."
+    },
+    {
+      "id": 4,
+      "link": "https://www.pexels.com/photo/green-apple-beside-of-two-clear-glass-jars-616833/",
+      "image": "https://images.pexels.com/photos/616833/pexels-photo-616833.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Green-apple",
+      "price": 4.99,
+      "text": "These shows are great for flexing out after you best day of workout. They are light weight and can also be used in any sport. Grab yourself one today."
+    },
+    {
+      "id": 6,
+      "link": "https://www.pexels.com/photo/basil-leaves-and-avocado-on-sliced-bread-on-white-ceramic-plate-1351238/",
+      "image": "https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Avocado-on-sliced-bread",
+      "price": 5.99,
+      "text": "The perfect fit for you. Are you looking for new shoes? We have you covered with our new Adidas. Good for running and even more greater for workout."
+    },
+    {
+      "id": 7,
+      "link": "https://www.pexels.com/photo/apple-and-beetroot-smoothie-4551975/",
+      "image": "https://images.pexels.com/photos/4551975/pexels-photo-4551975.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Apple-and-beetroot-smoothie",
+      "price": 4.99,
+      "text": "The perfect fit for you. Are you looking for new shoes? We have you covered with our new Adidas. Good for running and even more greater for workout."
+    },
+    {
+      "id": 8,
+      "link": "https://www.pexels.com/photo/steak-food-769289/",
+      "image": "https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Steak",
+      "price": 14.99,
+      "text": "The perfect fit for you. Are you looking for new shoes? We have you covered with our new Adidas. Good for running and even more greater for workout."
+    },
+    {
+      "id": 9,
+      "link": "https://www.pexels.com/photo/close-up-of-salad-in-plate-257816/",
+      "image": "https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Salad",
+      "price": 3.99,
+      "text": "The perfect fit for you. Are you looking for new shoes? We have you covered with our new Adidas. Good for running and even more greater for workout."
+    },
+    {
+      "id": 10,
+      "link": "https://www.pexels.com/photo/photo-of-fruits-and-smoothie-on-a-bowl-4099238/",
+      "image": "https://images.pexels.com/photos/4099238/pexels-photo-4099238.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Fruit and Smoothie",
+      "price": 7.99,
+      "text": "The perfect fit for you. Are you looking for new shoes? We have you covered with our new Adidas. Good for running and even more greater for workout."
+    },
+    {
+      "id": 11,
+      "link": "https://www.pexels.com/photo/healthy-breakfast-with-coffee-on-table-5591666/",
+      "image": "https://images.pexels.com/photos/5591666/pexels-photo-5591666.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Eggs and Coffee",
+      "price": 6.99,
+      "text": "The perfect fit for you. Are you looking for new shoes? We have you covered with our new Adidas. Good for running and even more greater for workout."
+    },
+    {
+      "id": 12,
+      "link": "https://www.pexels.com/photo/brown-cookies-on-black-plate-beside-white-ceramic-mug-6159169/",
+      "image": "https://images.pexels.com/photos/6159169/pexels-photo-6159169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "title": "Cookies",
+      "price": 2.99,
+      "text": "The perfect fit for you. Are you looking for new shoes? We have you covered with our new Adidas. Good for running and even more greater for workout."
+    },
+    {
+      "id": 13,
+      "link": "https://www.pexels.com/photo/bread-food-dawn-dinner-6419606/",
+      "image": "https://images.pexels.com/photos/6419606/pexels-photo-6419606.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "title": "Bread-food",
+      "price": 11.99,
+      "text": "The perfect fit for you. Are you looking for new shoes? We have you covered with our new Adidas. Good for running and even more greater for workout."
+    }
+  ]
+}

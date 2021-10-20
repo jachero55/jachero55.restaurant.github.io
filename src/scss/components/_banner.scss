@@ -1,0 +1,46 @@
+@use "../abstracts/colors.scss";
+@use "../abstracts/fonts.scss";
+.banner{
+  text-align: center;
+
+  @media(min-width: 768px) {
+    width: 70vw;
+  }
+
+  p {
+    color: #fff;
+    letter-spacing: .2rem;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 1.5rem;
+  }
+
+  h1{
+    // color: colors.$link-color;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .5rem;
+    padding-bottom: 2rem;
+
+    @media(min-width: 768px) {
+      font-size: 3rem;
+    }
+
+    @media(min-width: 992px) {
+      font-size: 10rem;
+    }
+  }
+
+  .banner-heading {
+    margin-top: -15rem;
+  }
+
+  .headingPadding {
+    margin-top: 5rem;
+  }
+
+  h2 {
+    color: #f2f2f2;
+    padding-top: 1.7rem;
+  }
+}

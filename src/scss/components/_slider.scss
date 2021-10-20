@@ -1,0 +1,41 @@
+.slider {
+  overflow: hidden;
+  @media(min-width: 768px) {
+    margin: 0 auto;
+    // overflow: hidden;
+    position: relative;
+}
+    }
+  .slider-container {
+    display: inline-block;
+    margin: 0 .1rem;
+
+    img{
+      border-radius: .3rem;
+    }
+}
+
+.left-arrow, .right-arrow {
+  position: absolute;
+  top: 30%;
+  font-size: 4rem;
+  text-align: center;
+  z-index: 9999;
+  cursor: pointer;
+  color: #fff;
+  background-color: #DD403A;
+  border-radius: .3rem;
+  padding: .5rem;
+}
+
+.left-arrow {
+  @media(min-width: 768px) {
+    left: 25px;
+}
+}
+
+.right-arrow {
+  @media(min-width: 768px) {
+    right: 25px;
+}
+}

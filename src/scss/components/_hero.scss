@@ -1,0 +1,74 @@
+.hero, .about-hero, .gallery-hero, .contact-hero, .covid-hero, .shop-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1860199/pexels-photo-1860199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  // background-attachment: fixed;
+
+  @media(min-width: 768px) {
+    // height: calc(80vh - 96px);
+    height: 100vh;
+    // background-attachment: fixed;
+  }
+}
+
+.about-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/845552/pexels-photo-845552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 60vh;
+}
+
+.covid-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  height: calc(60vh - 96px);
+}
+
+.gallery-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/3791089/pexels-photo-3791089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 60vh;
+  background-position: center;
+}
+
+.contact-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/7242751/pexels-photo-7242751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 45vh;
+}
+
+.shop-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/858508/pexels-photo-858508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  height: 55vh;
+  position: relative;
+
+  .category-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    width: 75vw;
+    position: absolute;
+    bottom: 0;
+
+    h2 {
+      color: #111;
+    }
+
+    span {
+      color: #DD403A;
+    }
+
+    button {
+      background: transparent;
+      font-size: 2rem;
+      color: #111;
+      border: none;
+      margin: 0 1rem;
+    }
+  }
+}
