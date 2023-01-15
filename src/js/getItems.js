@@ -5,13 +5,12 @@ class GetItems {
     this.getShopItems();
     this.ui = new UI;
     this.store = new ItemStorage();
-    this.cart = new Cart();
   }
 
   // Get the images
   getShopItems = async () => {
     try{
-      let response = await fetch("/src/data/data.json");
+      let response = await fetch("https://raw.githubusercontent.com/jachero55/jachero55.restaurant.github.io/main/src/data/data.json");
       let data = await response.json();
       console.log("Getting Images", data);
       let items = data.shop;
@@ -25,7 +24,7 @@ class GetItems {
   // Get the images
   getGalleryImages = async () => {
     try{
-      let response = await fetch("/src/data/data.json");
+      let response = await fetch("https://raw.githubusercontent.com/jachero55/jachero55.restaurant.github.io/main/src/data/data.json");
       let data = await response.json();
       console.log("Getting Images", data);
       let images = data.gallery;

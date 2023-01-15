@@ -10,6 +10,7 @@ class UI {
     shopItems = shopProducts;
     console.log("All Images", shopItems)
     let DOM = document.querySelector(".products-container");
+    console.log("bbbbbbbbbbeeee", DOM)
     let result = '';
     await shopItems.forEach(element => {
       result += `
@@ -25,7 +26,6 @@ class UI {
       $(".card-item").slice(0, 8).show();
     });
     // Invoke the items buttons function
-    this.cart.setUpCart();
     this.getSingleItemBtn();
     this.closeSingleItemModal();
     this.loadMoreItems();
@@ -77,13 +77,12 @@ class UI {
                   <h4>Description</h4>
                   <p>${item.text}</p>
                   <button class="addToCart" data-id=${item.id}>Add To Cart</button>
-                  <button class="view-cart" data-id=${item.id}>View Cart</button>
+                  <a href="cart.html" class="view-cart">View Cart</a>
                 </div>
               </div>
             `
       openItem.innerHTML = result;
       itemOverlay.style.display = "block"
-
       // invoking the getAddToCartBtnId to cart btn function
       this.cart.getAddToCartBtnId();
   }
